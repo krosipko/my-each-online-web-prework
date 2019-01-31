@@ -1,4 +1,6 @@
 def my_each(args)
-  while i < args.length 
+  i = 0
+  while i < args.length
+    yield(args)
   
 end
